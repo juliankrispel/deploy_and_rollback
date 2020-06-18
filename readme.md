@@ -1,0 +1,1 @@
+![Image of a cat](https://placekitten.com/600/400)
