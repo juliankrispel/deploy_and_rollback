@@ -12,5 +12,6 @@ jobs:
         with:
           version: "latest"
           file: "readme.md"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: ls -la
