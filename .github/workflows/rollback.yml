@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - id: latest-release
-        uses: thebritican/fetch-latest-release@v1
+        uses: thebritican/fetch-latest-release
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: ls -la
